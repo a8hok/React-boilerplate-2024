@@ -30,4 +30,15 @@ Create ReactJS app using [Vite](https://vitejs.dev/guide/)
 
             run npm install 
                 This will create node_modules folder and .husky folder
+        
+        ### Manual
+
+            Install Husky
+                npm install husky --save-dev
+
+            Add a prepare script in the package.json file
+                npm pkg set scripts.prepare="husky"
+            
+            then run prepare script
+                npm install or npm run prepare
 
