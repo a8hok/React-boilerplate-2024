@@ -10,7 +10,7 @@ Create ReactJS app using [Vite](https://vitejs.dev/guide/)
 
 ### Add husky to your ReactJS project
 
-- Two ways we can install husky
+- #### Two ways we can install husky
 
     - Automatic (recommended)
     - Manual
@@ -45,13 +45,18 @@ Create ReactJS app using [Vite](https://vitejs.dev/guide/)
                 This will create node_modules folder and .husky folder
 
 
-- Test husky
+- #### Test husky
 
-    Add a basic rules in eslint.config.js
-        - 'no-var': 'error',
+  Add a basic rules in eslint.config.js
+  
+      'no-var': 'error',
 
-    modify the App.jsx file, replace const with var
+   modify the App.jsx file
+  
+      replace const with var
 
-    Try to commit the file, you will see an error
-        error  Unexpected var, use let or const instead  no-var
-    <strong>husky works!</strong>
+   Try to commit the file, you will see an error
+  
+      error  Unexpected var, use let or const instead  no-var
+    
+  <strong>husky works!</strong>
