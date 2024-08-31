@@ -15,7 +15,7 @@ Create ReactJS app using [Vite](https://vitejs.dev/guide/)
     - Automatic (recommended)
     - Manual
 
-        #### Automatic (recommended)
+        ### Automatic (recommended)
 
             Create ReactJS Project
       
@@ -68,4 +68,18 @@ Create ReactJS app using [Vite](https://vitejs.dev/guide/)
   
       error  Unexpected var, use let or const instead  no-var
     
-  <strong>husky works!</strong>
+<strong>husky works!</strong>
+
+## Lint-staged Setup
+
+    > cd reactjs-boilerplate
+
+    > npm install --save-dev lint-staged
+
+    > create a .lintstagedrc file in the root folder
+
+    > add the configuration inside .lintstagedrc file
+
+        {
+            "*.{js,jsx}": ["eslint],
+        }
