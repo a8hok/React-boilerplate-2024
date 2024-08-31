@@ -1,6 +1,6 @@
-# React-boilerplate-2024
+# ReactJS-boilerplate-2024
 
-## React app Setup
+## ReactJS app Setup
 
 Create ReactJS app using [Vite](https://vitejs.dev/guide/)
 
