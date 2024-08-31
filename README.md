@@ -17,31 +17,40 @@ Create ReactJS app using [Vite](https://vitejs.dev/guide/)
 
         #### Automatic (recommended)
 
-            create ReactJS Project
-                npm create vite@latest reactjs-boilerplate -- --template react
-
-            cd reactjs-boilerplate
+            Create ReactJS Project
+      
+                > npm create vite@latest reactjs-boilerplate -- --template react
+      
+                > cd reactjs-boilerplate
 
             Initialize a Git Repository (if not already a GitHub repo)
-                git init
+      
+                > git init
 
-            initiate husky
-                npx husky-init
+            Initiate husky
+      
+                > npx husky-init
+      
                 This command will create a prepare script in the package.json file.
 
-            run npm install 
+            > run npm install
+      
                 This will create node_modules folder and .husky folder
         
         ### Manual
 
             Install Husky
-                npm install husky --save-dev
+      
+                > npm install husky --save-dev
 
             Add a prepare script in the package.json file
-                npm pkg set scripts.prepare="husky"
+      
+                > npm pkg set scripts.prepare="husky"
             
             then run prepare script
-                npm install or npm run prepare
+      
+                > npm install or npm run prepare
+      
                 This will create node_modules folder and .husky folder
 
 
